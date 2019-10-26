@@ -1,0 +1,498 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+/*body {
+    background-image: url('../img/achtergrond');
+    background-size: 100vw 30vh;
+    background-repeat: no-repeat;
+    background-position: 50% 2.5%;
+
+
+}*/
+
+main section img {
+    height: 25vh;
+    width: 100vw;
+    position: absolute;
+    z-index: -1;
+    margin-top: -2.4em;
+}
+
+
+main section p {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 1.2em;
+    width: 15em;
+    text-align: center;
+    margin: 2em 0em 0em 5em;
+    ;
+}
+
+main input[type="text"] {
+    width: 30vw;
+    min-width: 18em;
+    min-height: 2.5em;
+    height: 3vh;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    color: darkgrey;
+    margin: 1em 0em 0em 2em;
+
+}
+
+main section button {
+    height: 2.5em;
+    width: 8em;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    color: white;
+    background-color: #6dc6a8;
+    border: 0px;
+}
+
+main section button:hover {
+    background-color: #a0eacf;
+    transition: 0.5s;
+}
+
+#filter {
+    background-color: #6dc6a8;
+    height: 2.5em;
+    width: 15em;
+    font-size: 1em;
+    color: white;
+    margin-left: 25vw;
+    margin-top: 8em;
+    border: 0px;
+}
+
+#filter:hover {
+    background-color: #a0eacf;
+    transition: 0.5s;
+}
+
+#filter::after {
+    background-color: #5ca088;
+    font-weight: 600;
+}
+
+/* https://markheath.net/post/customize-radio-button-css */
+form input[type="radio"] {
+    height: 0;
+    width: 0;
+    opacity: 0;
+}
+
+form label:nth-child(-n+8) {
+    display: inline-block;
+    background-color: #cc96ca;
+    height: 2em;
+    width: 5em;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    padding: 0.2em;
+    text-align: center;
+
+}
+
+form {
+    margin-left: 17vw;
+    margin-top: 1em;
+    display: none;
+}
+
+form input[type="radio"]:checked + label:nth-child(-n+8) {
+    background-color: #ce51c2;
+    font-weight: 600;
+}
+
+form input[type="radio"]:focus + label:nth-child(-n+8) {
+    border: 1px solid #d868d3;
+}
+
+form label:nth-child(-n+8):hover {
+    background-color: #ef97eb;
+    transition: 0.5s;
+}
+
+div label {
+    display: block;
+    margin: 2em 0 0 0;
+    font-family: 'Montserrat' , sans-serif;
+    font-size: 0.85em;
+    display: none;
+}
+
+div label input[type="checkbox"] {
+    vertical-align: middle;
+}
+
+
+
+.ratings {
+    margin-left: 5.5em;
+}
+
+div i {
+    color: #ffe773;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2em;
+    margin: 4em 0em 0em 8em;
+}
+
+/* Navigatie opmaak */
+nav {
+    background-color: mediumslateblue;
+}
+
+nav img {
+    min-width: 300px;
+    max-height: 50px;
+    max-width: 400px;
+    width: 50vw;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding: 5px;
+}
+
+
+nav a {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-weight: 100;
+    padding: 5px;
+    text-align: center;
+    display: block;
+}
+
+nav li a:hover {
+    background-color: hsla(255, 100%, 100%, 0.3);
+}
+
+#zoeken {
+    text-align: center;
+    padding: 5px;
+
+}
+
+nav ul {
+    list-style-type: none;
+
+}
+
+/* breekpunt */
+@media screen and (min-width: 768px) {
+
+    main section img {
+    height: 35vh;
+    width: 100vw;
+}
+
+    nav ul {
+        list-style-type: none;
+        display: flex;
+    }
+
+    nav li {
+        flex: 1 1 0;
+    }
+
+    main section p {
+        font-family: 'Abril Fatface', cursive;
+        font-size: 1.5em;
+        width: 15em;
+        text-align: center;
+        margin-top: 1em;
+        margin-left: 35vw;
+    }
+
+    main input[type="text"] {
+        width: 30vw;
+        height: 5vh;
+        margin-top: 1em;
+        margin-left: 35vw;
+    }
+
+    #filter {
+        background-color: #6dc6a8;
+        height: 2.5em;
+        width: 15em;
+        font-size: 1em;
+        color: white;
+        margin-left: 45vw;
+        margin-top: 8em;
+    }
+
+    form {
+        margin-left: 40vw; 
+    }
+    
+    
+    
+}
+
+/* Einde breekpunt */
+
+/* Foodtrucks */
+.box {
+    height: 25em;
+    ;
+    width: 17em;
+    margin: 10px;
+    border: 1px solid black;
+    box-shadow: 1px 1px 15px #939393;
+}
+
+.box img {
+    height: 10em;
+    width: 16.9em;
+    padding: 0px;
+
+}
+
+.box img:hover {
+    background-color: grey;
+}
+
+.flexcontainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 1em;
+}
+
+.beschrijving {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 18px;
+    padding-top: 15px
+}
+
+main container h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    text-align: center;
+    padding-bottom: 1em;
+    margin-top: 0.3em;
+}
+
+.ratings-text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.65em;
+    color: grey;
+    text-decoration: underline;
+    margin-left: 9em;
+}
+
+container p {
+    width: 16.9em;
+    margin-top: 2.5em;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.85em;
+    margin-left: 1.5em;
+
+}
+
+container a {
+    text-decoration: none;
+    color: black;
+}
+
+/* styling footer */
+
+footer {
+    height: 25vh;
+    width: 100vw;
+    background-color: mediumslateblue;
+}
+
+footer section i {
+    color: white;
+    margin-top: 1em;
+    margin-left: 0.2em;
+}
+
+footer section {
+    width: 10em;
+    margin-left: 45vw;;
+}
+footer ul li {
+    text-align: center;
+    padding: 0.2em;
+}
+footer ul a{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 0.85em;
+    text-decoration: none;  
+}
+
+footer p {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.7em;
+    color: white;
+    margin-top: 2em;
+}
+/* begin styling detailpagina */
+
+@keyframes slide {
+    0% {
+        left: 0;
+    }
+
+    10% {
+        left: 0;
+    }
+
+    20% {
+        left: -100%;               
+    }
+
+    30% {
+        left: -100%;
+    }
+
+    40% {
+        left: -200%;
+    }
+
+    50% {
+        left: -200%;
+    }
+
+    60% {
+        left: -300%;
+    }
+
+    70% {
+        left: -300%;
+    }
+
+    80% {
+        left: -400%;
+    }
+
+    90% {
+        left: -400%;
+    }
+
+    100% {
+        left: 0;
+    }
+}
+
+#slider {
+    overflow: hidden;
+    width: 100vw;
+    height: 20em;
+  
+
+}
+
+#slider figure img{
+    width: 20%;
+    float: left;
+}
+
+#slider figure {
+    position: relative;
+    width: 500%;
+    animation: slide 20s infinite;
+}
+
+main container article h3{
+    margin: 1em;
+    font-size: 1.4em;
+    text-align: center;
+}
+
+.ratings-groot {
+    margin-left: 35%
+}
+main container:nth-child(2) article:nth-child(1) h5 ,main container:nth-child(2) article:nth-child(3) h5{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    margin: 2em 0 1em 1.5em;
+}
+main container:nth-child(2) article:nth-child(1) p {
+    width: 90vw;
+    font-size: 0.85em;
+    margin: 1em 2em 2em 1.5em;
+    width: 32em;
+
+}
+
+h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.9em;
+    font-weight: 400;
+    margin: 1em 0 1em 1.5em;
+}
+
+main container:nth-child(2) article ul {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.85em;
+    margin: 1em 0 1em 4em;
+    list-style-type: none;
+    background-color: #f7f7f7;
+    width: 26em;
+    padding: 1em 0 1em 1em;
+}
+
+main container:nth-child(2) article:nth-child(2) li{
+    padding: 0.3em;
+}
+main container:nth-child(2) article:nth-child(2) p {
+    width: 90vw;
+    font-size: 0.85em;
+    margin: 1em 0 2em 1.5em;
+    width: 32em;
+}
+main container article:nth-child(2) button {
+    background-color: #6dc6a8;
+    width: 20em;
+    height: 2.5em;
+    font-family: 'Montserrat', sans serif;
+    font-size: 1em;
+    color: white;
+    margin-left: 20vw;
+    margin-top: 2em;
+    border: 0px; 
+}
+
+main container article:nth-child(2) button:hover {
+     background-color: #a0eacf;
+    transition: 0.5s;
+}
+main container:nth-child(2) article:nth-child(2) h5{
+    font-family: 'Montserrat', sans serif;
+    font-weight: 600;
+    font-size: 1em;
+    margin: 1em 0 1em 1.5em;
+}
+table {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.85em;
+    border-spacing: 1em;
+    margin: 1em 0 1em 4em;
+    background-color: #f7f7f7;
+    
+}
+main container:nth-child(2){
+   display: flex;
+   flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}

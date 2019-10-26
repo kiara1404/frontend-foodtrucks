@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial scale=1.0">
+    <title>Foodtruck booking</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Karma:300|Montserrat:400,400i,500,500i,600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/048e0c164b.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="index.html"><img src="img/logo2.png" id="logo"></a>
+            <ul>
+                <li><a href="">HUREN</a></li>
+                <li><a href="">VERHUREN</a></li>
+                <li><a href="">FOODTRUCK AANMELDEN</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <img src="img/achtergrond">
+            <p> Zoek en boek de beste foodtruck die bij uw wensen aansluit!</p>
+            <input type="text" value="Zoek op product of keuken..."><button>Zoek</button>
+        </section>
+        <button id="filter">Filteren</button>
+        <container>
+            <form id="formulier">
+                <input type="radio" id="filter-afstand" name="filteren" value="Afstand">
+                <label for="filter-afstand">Afstand</label>
+                <input type="radio" id="filter-keuken" name="filteren" value="keuken">
+                <label for="filter-keuken">Keuken</label>
+                <input type="radio" id="filter-prijs" name="filteren" value="prijs">
+                <label for="filter-prijs">Prijs</label>
+                <input type="radio" id="filter-dieet" name="filteren" value="dieet">
+                <label for="filter-dieet">Diëet</label>
+
+            </form>
+
+        </container>
+        <h3>Overzicht foodtrucks</h3>
+        <container class="flexcontainer">
+            <article class="box">
+                <a href="detailpagina.html"><img src="img/foodtruck1.jpeg" alt=""></a>
+                <a href="detailpagina.html">
+                    <h2 class="foodtruck-titel">LUMBERJACK SHACK BBQ</h2>
+                </a>
+                <div class="ratings">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <a class="ratings-text" href="#">19 beoordelingen</a>
+                <p>Wij zijn Lumberjack Shack, opgericht in 2016 en een onderdeel van Mikavo Vleesverwerking & Handel, met als doel onze passie en enthousiasme voor vlees te delen.</p>
+
+            </article>
+            <article class="box">
+                <a href="detailpagina.html"><img src="img/foodtruck2.jpeg" alt=""></a>
+                <a href="detailpagina.html">
+                    <h2 class="foodtruck-titel">MEAT AT THE BAR</h2>
+                </a>
+                <div class="ratings">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <a class="ratings-text" href="#">12 beoordelingen</a>
+                <p>De enige echte en originele Meat at the Bar van Nederland . We maken de heerlijkste vlees specialiteiten vanuit deze BBQ/slagers trucks .</p>
+
+            </article>
+            <article class="box">
+                <a href="detailpagina.html"><img src="img/foodtruck3.jpeg" alt=""></a>
+                <a href="detailpagina.html">
+                    <h2 class="foodtruck-titel">EXOTIQO</h2>
+                </a>
+                <div class="ratings">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <a class="ratings-text" href="#">3 beoordelingen</a>
+                <p>Bij Exotiqo expirementeren we graag met kruiden en ingredienten om de meest verassende smaken te creëren. </p>
+
+            </article>
+            <article class="box">
+                <a href="detailpagina.html"><img src="img/foodtruck4.jpeg" alt=""></a>
+                <a href="detailpagina.html">
+                    <h2 class="foodtruck-titel">DE BELLYBOS</h2>
+                </a>
+                <div class="ratings">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <a class="ratings-text" href="#">2 beoordelingen</a>
+                <p>"Wij geven smaak de juiste betekenis" . Dit is niet alleen een slogan, het is wat wij doen. Wij zorgen ervoor dat u en uw gasten compromisloos genieten van onze hapjes!</p>
+
+            </article>
+            <article class="box">
+                <a href="detailpagina.html"><img src="img/foodtruck5.jpeg" alt=""></a>
+                <a href="detailpagina.html">
+                    <h2 class="foodtruck-titel">PIAZZANI</h2>
+                </a>
+                <div class="ratings">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <a class="ratings-text" href="#">23 beoordelingen</a>
+                <p>Piazzani is een foodtruck waar de houtoven centraal staat. Naast pizza's die wij traditioneel beleggen verzorgen wij ook borrelplanken en desserts.</p>
+
+            </article>
+            <article class="box">
+                <a href="detailpagina.html"><img src="img/foodtruck6.jpeg" alt=""></a>
+                <a href="detailpagina.html">
+                    <h2 class="foodtruck-titel">TANTE TOFU</h2>
+                </a>
+                <div class="ratings">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <a class="ratings-text" href="#">5 beoordelingen</a>
+                <p>Steeds meer mensen ontdekken de geheimen van de plantaardige keuken. Tante Tofu helpt je daar graag een handje bij.</p>
+
+            </article>
+            <article class="box">
+                <a href="detailpagina.html"><img src="img/foodtruck7.jpeg" alt=""></a>
+                <a href="detailpagina.html">
+                    <h2 class="foodtruck-titel">MO'S COMFORT FOOD</h2>
+                </a>
+                <div class="ratings">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <a class="ratings-text" href="#">15 beoordelingen</a>
+                <p>Mo's Comfort Food is passie op wielen. Met 23 jaar horeca ervaring en de eerste kennismaking met "Southern BBQ" in 1994 is in 2014 een droom uitgekomen.</p>
+
+            </article>
+            <article class="box">
+                <a href="detailpagina.html"><img src="img/foodtruck8.jpeg" alt=""></a>
+                <a href="detailpagina.html">
+                    <h2 class="foodtruck-titel">DAILY DOG</h2>
+                </a>
+                <div class="ratings">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <a class="ratings-text" href="#">34 beoordelingen</a>
+                <p>Run Fast – Snack Slow! The ‘Best Of Both Worlds’ komt samen in de foodtrucks van DailyDog.</p>
+
+            </article>
+            <article class="box">
+                <a href="detailpagina.html"><img src="img/foodtruck9.jpeg" alt=""></a>
+                <a href="detailpagina.html">
+                    <h2 class="foodtruck-titel">BURGERBARN</h2>
+                </a>
+                <div class="ratings">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <a class="ratings-text" href="#">13 beoordelingen</a>
+                <p>Onze Burgers zijn dagvers, en worden gemaakt van puur Australian Black Angus Beef op een heerlijk vers broodje. Volgens de stadsgids van het Parool één van de tien lekkerste van Amsterdam. </p>
+
+            </article>
+            <article class="box">
+                <a href="detailpagina.html"><img src="img/foodtruck10.jpeg" alt=""></a>
+                <a href="detailpagina.html">
+                    <h2 class="foodtruck-titel">PALETTI KOFFIE</h2>
+                </a>
+                <div class="ratings">
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <a class="ratings-text" href="#">0 beoordelingen</a>
+                <p>Beleving! Dat is waar Paletti al sinds 2008 bekend om staat. Wij bieden de allerbeste koffie en optioneel ijskoffie en ijsthee. </p>
+
+            </article>
+            <article class="box">
+                <a href="detailpagina.html"><img src="img/foodtruck11.jpg" alt=""></a>
+                <a href="detailpagina.html">
+                    <h2 class="foodtruck-titel">SATÉ KLAPPER</h2>
+                </a>
+                <div class="ratings">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <a class="ratings-text" href="#">7 beoordelingen</a>
+                <p>Bij Saté Klapper proef je heerlijke handgemaakte saté van hoogwaardig en 100% natuurlijk vlees gemarineerd met verse ingrediënten volgens de authentieke recepten van oma.</p>
+
+            </article>
+            <article class="box">
+                <a href="detailpagina.html"><img src="img/foodtruck12.jpg" alt=""></a>
+                <a href="detailpagina.html">
+                    <h2 class="foodtruck-titel">KARMA SHOARMA</h2>
+                </a>
+                <div class="ratings">
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <a class="ratings-text" href="#">0 beoordelingen</a>
+                <p>Van vurige veganist tot rasechte vleeseter, rijen dik stonden ze afgelopen zomer op onze eerste festival tour. Van Best Kept Secret tot Lowlands en alles daar tussen. </p>
+
+            </article>
+
+
+        </container>
+    </main>
+    <footer>
+       <ul>
+           <li><a href="#">Algemene voorwaarden</a></li>
+           <li><a  href="#">Meestgestelde vragen</a></li>
+           <li><a  href="#">Vacatures</a></li>
+       </ul>
+        <section>
+            <i class="fab fa-instagram fa-2x"></i>
+            <i class="fab fa-facebook-square fa-2x"></i>
+            <i class="fab fa-twitter-square fa-2x"></i>
+            <i class="fas fa-envelope-square fa-2x"></i>
+        </section>
+        <p>&copy; Kiara Broekhuizen 2019</p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
