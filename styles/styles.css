@@ -17,9 +17,9 @@ main section img {
 main section p {
     font-family: 'Abril Fatface', cursive;
     font-size: 1.2em;
-    width: 15em;
+    width: 12em;
     text-align: center;
-    margin: 2em 0em 0em 5em;
+    margin: 1em 0em 0em 5em;
     ;
 }
 
@@ -420,7 +420,7 @@ main container:nth-child(2) article:nth-child(1) p {
     width: 90vw;
     font-size: 0.85em;
     margin: 1em 2em 2em 1.5em;
-    width: 32em;
+    width: 24em;
 
 }
 
@@ -434,10 +434,10 @@ h6 {
 main container:nth-child(2) article ul {
     font-family: 'Montserrat', sans-serif;
     font-size: 0.85em;
-    margin: 1em 0 1em 4em;
+    margin: 1em 0 1em 2em;
     list-style-type: none;
     background-color: #f7f7f7;
-    width: 26em;
+    width: 24em;
     padding: 1em 0 1em 1em;
 }
 
@@ -448,11 +448,11 @@ main container:nth-child(2) article:nth-child(2) p {
     width: 90vw;
     font-size: 0.85em;
     margin: 1em 0 2em 1.5em;
-    width: 32em;
+    width: 24em;
 }
 main container article:nth-child(2) button {
     background-color: #6dc6a8;
-    width: 20em;
+    width: 18em;
     height: 2.5em;
     font-family: 'Montserrat', sans serif;
     font-size: 1em;
@@ -476,7 +476,7 @@ table {
     font-family: 'Montserrat', sans-serif;
     font-size: 0.85em;
     border-spacing: 1em;
-    margin: 1em 0 1em 4em;
+    margin: 1em 0 1em 1em;
     background-color: #f7f7f7;
     
 }
