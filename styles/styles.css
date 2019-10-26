@@ -4,14 +4,6 @@
     padding: 0px;
 }
 
-/*body {
-    background-image: url('../img/achtergrond');
-    background-size: 100vw 30vh;
-    background-repeat: no-repeat;
-    background-position: 50% 2.5%;
-
-
-}*/
 
 main section img {
     height: 25vh;
@@ -79,7 +71,6 @@ main section button:hover {
     font-weight: 600;
 }
 
-/* https://markheath.net/post/customize-radio-button-css */
 form input[type="radio"] {
     height: 0;
     width: 0;
